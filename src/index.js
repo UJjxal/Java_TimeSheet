@@ -4,10 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/css/bootstrap.min.css";
+import LoginScreen from './Pages/LoginScreen';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <LoginScreen/>
   </React.StrictMode>,
   document.getElementById('root')
 );
